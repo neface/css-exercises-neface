@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -c /tmp/cookies.txt -X POST http://localhost:3000/api/auth/login -H \"Content-Type: application/json\" -d '{\"username\":\"admin1\",\"password\":\"admin123\"}')",
+      "Read(//tmp/**)"
+    ]
+  }
+}
